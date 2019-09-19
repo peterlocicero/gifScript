@@ -1,0 +1,321 @@
+{
+    "output_file": "config.json",
+
+    "liveOnly": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Live Only Mode",
+        "tooltip": "True if you want it to only run when you are live",
+        "group" : "General"
+    },
+	
+    "command": {
+        "type": "textbox",
+        "value": "!sponge",
+        "label": "Command",
+        "tooltip": "Name of the Command",
+        "group": "Command 1"
+    },
+    "command2": {
+        "type": "textbox",
+        "value": "!dancing",
+        "label": "Command 2",
+        "tooltip": "Name of the Command",
+        "group": "Command 2"
+    },
+    "command3": {
+        "type": "textbox",
+        "value": "!dive",
+        "label": "Command 3",
+        "tooltip": "Name of the Command",
+        "group": "Command 3"
+    },
+        "command4": {
+        "type": "textbox",
+        "value": "!fortnite",
+        "label": "Command 4",
+        "tooltip": "Name of the Command",
+        "group": "Command 4"
+    },
+    "command5": {
+        "type": "textbox",
+        "value": "!internet",
+        "label": "Command 5",
+        "tooltip": "Name of the Command",
+        "group": "Command 5"
+    },
+    "command6": {
+        "type": "textbox",
+        "value": "!thanos",
+        "label": "Command 6",
+        "tooltip": "Name of the Command",
+        "group": "Command 6"
+    },
+    "permission": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 1"
+   },
+   "useCustomCosts": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 1"
+    },
+    "costs": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 1"
+    },
+    "setTime":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 1"
+   },
+   "useCooldown":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 1"
+   },
+   "Cooldown":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 1"
+    },
+
+    "permission2": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 2"
+   },
+   "useCustomCosts2": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 3"
+    },
+    "costs2": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 2"
+    },
+    "setTime2":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 3"
+   },
+   "useCooldown2":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 2"
+   },
+   "Cooldown2":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 2"
+    },
+    "permission3": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 3"
+   },
+   "useCustomCosts3": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 3"
+    },
+    "costs3": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 3"
+    },
+    "setTime3":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 3"
+   },
+   "useCooldown3":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 3"
+   },
+   "Cooldown3":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 3"
+    },
+
+
+"permission4": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 4"
+   },
+   "useCustomCosts4": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 4"
+    },
+    "costs4": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 4"
+    },
+    "setTime4":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 4"
+   },
+   "useCooldown4":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 4"
+   },
+   "Cooldown4":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 4"
+    },
+
+
+"permission5": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 5"
+   },
+   "useCustomCosts5": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 5"
+    },
+    "costs5": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 5"
+    },
+    "setTime5":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 5"
+   },
+   "useCooldown5":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 5"
+   },
+   "Cooldown5":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 5"
+    },
+"permission6": {
+        "type": "dropdown",
+        "value": "Everyone",
+        "items": ["Everyone","Regular","Subscriber","Moderator"],
+        "label": "Permission level",
+        "tooltip": "Set the permission level for the command",
+        "group": "Command 6"
+   },
+   "useCustomCosts6": {
+        "type": "checkbox",
+        "value": true,
+        "label": "Use custom costs:",
+        "tooltip": "Enable/Disable custom costs",
+        "group": "Command 6"
+    },
+    "costs6": {
+        "type": "numberbox",
+        "value": 100,
+        "label": "Cost to use the Gif:",
+        "tooltip": "Set the cost for this command.",
+        "group": "Command 6"
+    },
+    "setTime6":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Gif Duration:",
+	"tooltip": "Set the amount of time the Gif will last (in seconds)",
+	"group" :"Command 6"
+   },
+   "useCooldown6":{
+	"type":"checkbox",
+	"value": true,
+	"label": "Should the Gif have a Cooldown?",
+	"tooltip": "Adds a Cooldown to the Gif",
+	"group" :"Command 6"
+   },
+   "Cooldown6":{
+	"type":"numberbox",
+	"value": 30,
+	"label": "Set Cooldown Duration:",
+	"tooltip": "Set the Cooldown time for the Gif (in seconds)",
+	"group" :"Command 6"
+    }
+
+
+
+    
+}
